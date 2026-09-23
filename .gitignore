@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+
+# Dataset
+data/*.csv
+data/*.zip
+
+# Model/checkpoint files
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
